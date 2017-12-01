@@ -1,0 +1,40 @@
+#price{
+    width:100%;
+    .ticket{
+        width:100%;
+        .ticket-intro{
+            padding:20px 10px 1px 10px;
+            border-bottom:1px solid #f2f2f2;
+            height:180px; 
+            .left{
+                float: left;
+                width:50%;
+                h4{
+                    color:#000;
+                    font:20px/26px "";
+                }
+                p{
+                    font:14px/26px "";
+                }
+            }
+            .right{
+                font:14px/22px "";
+                float: right;
+                h4{
+                    color:#ff5400;
+                    font:20px/26px "";
+                }
+                span{
+                    color:#ff5400;
+                }
+                
+                .wid{
+                    margin-right:5px;
+                }
+            }         
+        }
+    }
+    .container{
+        text-align: center;
+    }
+}

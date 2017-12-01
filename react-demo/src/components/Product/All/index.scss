@@ -1,0 +1,61 @@
+#all{
+    width:100%;
+    .all-info{
+        padding:0 15px 0 15px;
+        li{
+            width:100%;
+            overflow: hidden;
+            margin: 20px 0;
+            border-bottom:1px solid #f2f2f2;
+            img{
+                width:120px;                
+                float: left;
+                margin-right: 15px;
+            }
+            span{
+                font:16px/30px "";
+                color: #666;
+            }
+            p{
+                font:12px/24px "";
+                color: #888;
+            }
+            a{
+                display: inline-block;
+                border:1px solid orange;
+                text-align: center;
+                font: 18px/24px "";
+                color: orange;
+                padding: 0 8px;
+                border-radius: 5px;
+                margin-right:20px;
+            }
+            i{
+                color: orange;
+            }
+        }
+    }
+    .container{
+        text-align: center;
+    }
+}
+
+/* <div className="container">
+          <nav aria-label="Page navigation">
+            <ul className="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li onClick={this.changeOne.bind(this)}><a>1</a></li>
+              <li onClick={this.changeTwo.bind(this)}><a>2</a></li>
+              <li><a>3</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div> */
